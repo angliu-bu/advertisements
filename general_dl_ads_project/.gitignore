@@ -1,0 +1,19 @@
+# Ignore dataset files
+*.csv
+*.tsv
+*.xlsx
+
+# Ignore logs and checkpoints
+logs/
+checkpoints/
+*.ckpt
+
+# Ignore large binaries
+*.bin
+*.pt
+*.pth
+
+# Byte-compiled / temporary files
+__pycache__/
+*.py[cod]
+*$py.class
